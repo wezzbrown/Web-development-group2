@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+   
+}
+.navbar2{
+    background-image: url(/images/hero_desktop.png);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbarimage{
+    width: 300px;
+}
+.navbari{
+    width: 230px;
+}
+
+.navbar1{
+    margin-bottom: 150px;
+}
+.search{
+    margin-left: 50px;
+    margin-right: 50px;
+}
