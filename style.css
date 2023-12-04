@@ -24,3 +24,10 @@ body{
     margin-left: 50px;
     margin-right: 50px;
 }
+.sectionn{
+    background-image: url(images/images\ \(4\).jpg);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
