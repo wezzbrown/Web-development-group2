@@ -1,6 +1,10 @@
+*{
+  
+}
 body{
     margin: 0;
     padding: 0;
+    
    
 }
 .navbar2{
@@ -9,6 +13,10 @@ body{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    padding-bottom: 130px;
+}
+.navc{
+    display: flex;
 }
 .navbarimage{
     width: 300px;
@@ -20,14 +28,49 @@ body{
 .navbar1{
     margin-bottom: 150px;
 }
-.search{
-    margin-left: 50px;
-    margin-right: 50px;
+.navbars{
+    width: 400px;
+    max-width: 350px;
+    height: 60px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: auto;
+
+
 }
+.navbars > .navbarin > i{
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.568);
+    
+}
+.navbars > .navbarin > input{
+    flex: 1;
+    width: 200px;
+    height: 40px;
+    border: none;
+}
+.navbars > .navbarin > input {
+   outline: none;
+}
+.navbars > i{
+    background-color: red;
+    border-radius: 50%;
+    padding: 17px;
+    font-size: 20px;
+    color: white;
+}
+
 .sectionn{
     background-image: url(images/images\ \(4\).jpg);
     background-blend-mode: multiply;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+.section1{
+ 
 }
